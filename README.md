@@ -1,7 +1,7 @@
 ## spring-data-jpa-template
 
 项目地址：
-[https://gitee.com/silentwu/spring-data-jpa-template.git](https://gitee.com/silentwu/spring-data-jpa-template.git "https://gitee.com/silentwu/spring-data-jpa-template.git")
+[https://github.com/silentwu/spring-data-jpa-template.git](https://github.com/silentwu/spring-data-jpa-template.git)
 
 #### 主要解决的问题：
 1. 动态的拼接SQL,类似mybaits, 通过freemarker 来实现的
