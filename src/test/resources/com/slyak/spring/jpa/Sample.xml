@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sqls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.slyak.com/schema/templatequery"
+      xsi:schemaLocation="http://www.slyak.com/schema/templatequery http://www.slyak.com/schema/templatequery.xsd">
+
+    <sql name="findByContent">
+        <![CDATA[
+          SELECT * FROM t_sample WHERE 1=1
+          <#if content??>
+            AND content LIKE :content
+          </#if>
+        ]]>
+    </sql>
+    <sql name="countContent">
+        <![CDATA[
+          SELECT count(*) FROM t_sample WHERE 1=1
+          <#if content??>
+            AND content LIKE :content
+          </#if>
+        ]]>
+    </sql>
+    <sql name="findDtos">
+        <![CDATA[
+          SELECT id,content as contentShow FROM t_sample
+        ]]>
+    </sql>
+    <sql name="findByTemplateQueryObject">
+        <![CDATA[
+          SELECT * FROM t_sample WHERE 1=1
+          <#if content??>
+            AND content LIKE :content
+          </#if>
+        ]]>
+    </sql>
+</sqls>
