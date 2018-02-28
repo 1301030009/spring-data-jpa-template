@@ -6,7 +6,7 @@
 
     <groupId>com.rabbit</groupId>
     <artifactId>spring-data-jpa-template</artifactId>
-    <version>1.9</version>
+    <version>1.9.1</version>
 
     <properties>
         <java.version>1.8</java.version>
